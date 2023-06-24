@@ -4,8 +4,10 @@ body {
 header {
     background-color: blue;
 }
-main {
+main .content {
+    width: 100%;
     background-color: gray;
+    
 }
 footer {
     background-color: darkred;
@@ -13,6 +15,12 @@ footer {
 .logo {
     max-width: 100%;
 }
-img {
-    max-width: 100%;
+.social {
+    max-width: 10%;
+}
+.content {
+    max-width: 50%;
+}
+.social {
+    max-width: 10%;
 }
