@@ -10,3 +10,9 @@ main {
 footer {
     background-color: darkred;
 }
+.logo {
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+}
