@@ -1,26 +1,33 @@
 body {
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
+
 header {
-    background-color: blue;
+    height: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin: 0;
 }
-main .content {
-    width: 100%;
-    background-color: gray;
-    
+header .logo {
+    height: 300px;
+    width: 350px;
+}
+main{
+    text-align: center;
+    background-color: pink;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+main .zainpic {
+    height: 75%;
+    width: 350px;
 }
 footer {
-    background-color: darkred;
+    text-align: center;
+    background-color: red;
 }
-.logo {
-    max-width: 100%;
-}
-.social {
-    max-width: 10%;
-}
-.content {
-    max-width: 50%;
-}
-.social {
-    max-width: 10%;
+
+footer .tumblr {
+    width: 64px;
+    height: 64px;
 }
