@@ -6,11 +6,7 @@ h2 {
     text-align: center;
     margin-bottom: 100px;
 }
-main .p1 {
-    grid-column: 2/3;
-    text-align: center;
-    margin-bottom: 100px;
-}
+
 header {
     height: 100%;
     text-align: center;
