@@ -23,7 +23,10 @@ main {
 .content{
     display: grid;
     grid-template-columns: 2fr .5fr 2fr;
-
+}
+.content1{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .newpaperimg {
   grid-column: 2/3;
@@ -56,6 +59,8 @@ main .zain {
   justify-self: center;
 }
 footer {
+    margin: auto 0;
+    padding: 0;
     text-align: center;
     background-color: red;
 }
